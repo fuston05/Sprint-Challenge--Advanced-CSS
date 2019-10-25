@@ -1,1 +1,31 @@
 // Navigation code here
+
+.navCont{
+    .displayFlex(column, space-evenly, center);
+    width: 100%;
+    background-color: @nav-bg;
+    padding: 1% 0;
+
+    h1{
+        font-size: 3.2rem;
+        margin: 0 0 1% 0;
+    }// end h1
+
+    nav{
+        .displayFlex(row, space-between, center);
+        width: 25%;
+
+        a{
+            font-size: 1.6rem;
+            text-decoration: none;
+            color: @nav-font;
+
+            &:hover{
+
+            }
+
+        }// end a
+
+    }// end nav
+
+}// end navCont
