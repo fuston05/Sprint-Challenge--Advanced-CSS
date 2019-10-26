@@ -1,1 +1,41 @@
 // Navigation code here
+
+.navCont{
+    .displayFlex(column, space-evenly, center);
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    width: 100%;
+    background-color: @nav-bg;
+    padding: 1% 0;
+    opacity: 0.9;
+
+    h1{
+        font-size: 3.2rem;
+        margin: 0 0 1% 0;
+    }// end h1
+
+    nav{
+        .displayFlex(row, center, center);
+        width: 100%;
+
+        a{
+            font-size: 1.6rem;
+            text-decoration: none;
+            color: @nav-font;
+            margin-left: 4%;
+
+            &:first-child{
+                margin-left: 0;
+            }
+
+            &:hover{
+                cursor: pointer;
+                opacity: 0.8;
+            }
+
+        }// end a
+
+    }// end nav
+
+}// end navCont

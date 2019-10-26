@@ -1,0 +1,42 @@
+// signUp styles
+
+.signUpCont{
+    max-width: 800px;
+    width: 100%;
+    height: 100vh;
+    margin: 150px auto 0 auto;
+
+    h1{
+        font-size: 3.2rem;
+        text-align: center;
+    }
+
+    form{
+        padding: 4%;
+        margin: 5% auto 0 auto;
+        border-radius: 5px;
+        width: 75%;
+        background-color: rgb(245, 245, 245);
+        .displayFlex(column, center, center);
+        input[type="text"], input[type="email"], input[type="tel"]{
+            margin: 0 0 2% 0;
+            font-size: 1.6rem;
+            padding: 1%;
+            width: 100%;
+        }// end input
+
+        #submit{
+            font-size: 2.3rem;
+            padding: 10%;
+            width: 40%;
+        }
+
+        @media @phone{
+            width: 95%;
+        }
+        
+
+    }//  end form
+
+}// end signUpCont
+
