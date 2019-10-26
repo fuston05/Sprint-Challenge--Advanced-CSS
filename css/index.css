@@ -351,3 +351,8 @@ footer {
   padding: 10%;
   width: 40%;
 }
+@media (max-width: 500px) {
+  .signUpCont form {
+    width: 95%;
+  }
+}
