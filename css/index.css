@@ -165,9 +165,13 @@ p {
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
+  position: fixed;
+  z-index: 1;
+  top: 0;
   width: 100%;
   background-color: #F6F6F6;
   padding: 1% 0;
+  opacity: 0.9;
 }
 .navCont h1 {
   font-size: 3.2rem;
@@ -202,6 +206,10 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.home {
+  position: relative;
+  margin-top: 6.6%;
 }
 .home .intro img {
   border-radius: 5px;
