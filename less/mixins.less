@@ -10,18 +10,18 @@
 
 .button(@bgColor, @fontColor){
     background-color: @bgColor;
-    color: @fontColor;
-    padding: 3% 5%;
     border-radius: 5px;
     width: 40%;
     text-align: center;
     font-size: 2rem;
+    color: @fontColor;
+    padding: 3% 5%;
+    text-decoration: none;
 
-    &:hover{
-        background-color: @fontColor;
-        color: @bgColor;
-        cursor: pointer;
-    }// end hover
+        &:hover{
+            color: @bgColor;
+            background-color: @fontColor;
+        }
 
     @media @phone{
         width: 95%;
